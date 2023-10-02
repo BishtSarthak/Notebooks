@@ -1,3 +1,25 @@
+### Jupyter Lab ###
+
+*.bundle.*
+lib/
+node_modules/
+*.log
+.eslintcache
+.stylelintcache
+*.egg-info/
+.ipynb_checkpoints
+*.tsbuildinfo
+jupyterlab_git/labextension
+# Version file is handled by hatchling
+jupyterlab_git/_version.py
+src/version.ts
+
+# Integration tests
+ui-tests/test-results/
+ui-tests/playwright-report/
+
+### Python ###
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
